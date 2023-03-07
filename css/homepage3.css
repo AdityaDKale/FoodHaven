@@ -1,0 +1,32 @@
+#homepage3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0vw;
+    top: 200vh;
+    background-color: #1A0C00;
+    overflow: hidden;
+}
+
+#plate {
+    position: absolute;
+    width: auto;
+    height: 90vmin;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#chapati {
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    right: 0vw;
+
+}
+
+@media screen and (max-width: 1102px) {
+    #chapati {
+        display: none;
+    }
+}

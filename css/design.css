@@ -1,0 +1,152 @@
+@media screen and (min-width: 992px) {
+
+    #design1.circle {
+        position: absolute;
+        left: 7vw;
+        top: 34vh;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 11;
+    }
+
+    #design2.circle {
+        position: absolute;
+        left: 4vw;
+        top: 34vh;
+        width: 2vw;
+        height: 2vw;
+        border-radius: 50%;
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 11;
+    }
+
+    #design3.rectangle {
+        position: absolute;
+        width: 6.53vw;
+        height: 0.3vh;
+        left: -1vw;
+        top: 7vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        transform: rotate(30deg);
+
+    }
+
+    #design4.rectangle {
+        position: absolute;
+        width: 0.3vh;
+        height: 0vh;
+        left: 4.95vw;
+        top: 0vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+        transition: height 1000ms ease-in;
+    }
+
+    #design4.rectangle.appear {
+        position: absolute;
+        width: 0.3vh;
+        height: 89vh;
+        left: 4.95vw;
+        top: 11vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+    }
+
+    #design5.rectangle {
+        position: absolute;
+        width: 0.3vh;
+        height: 0vh;
+        left: 4.95vw;
+        top: 0vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+        transition: height 1000ms ease-in;
+    }
+
+    #design5.rectangle.appear {
+        position: absolute;
+        width: 0.3vh;
+        height: 100vh;
+        left: 4.95vw;
+        top: 0vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+    }
+
+    #design6.rectangle {
+        position: absolute;
+        width: 0.3vh;
+        height: 23vh;
+        left: 7.95vw;
+        top: 25vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+    }
+
+    #design7.rectangle {
+        position: absolute;
+        width: 3.4vw;
+        height: 0.3vh;
+        left: 4.9vw;
+        top: 23vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        transform: rotate(30deg);
+        z-index: 9;
+    }
+
+    #design8.rectangle {
+        position: absolute;
+        width: 3.4vw;
+        height: 0.3vh;
+        left: 4.9vw;
+        top: 49.5vh;
+
+        background: #FFBB55;
+        border: 2px solid #000000;
+        transform: rotate(-30deg);
+        z-index: 9;
+    }
+
+    #design9 {
+        position: absolute;
+        left: -4.9vw;
+        top: -5vw;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background: #FFBB55;
+        border: 2px solid #000000;
+        z-index: 10;
+    }
+
+    #design10.circle {
+        position: absolute;
+        left: -5.15vw;
+        top: -5.23vw;
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background: #1A0C00;
+        border: 2px solid #000000;
+        z-index: 10;
+    }
+
+}
