@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ok.css">
+
+</head>
+
+<style>
+  body {
+
+    background-size: cover;
+    margin: 156px;
+
+  }
+
+  .container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 1100px;
+    height: 300px;
+
+
+  }
+
+  .MENU {
+    background-color: #181616;
+    height: 516px;
+    width: 400px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    border-style: solid;
+    border-color: orangered;
+    margin: 30px;
+    padding: 30px;
+
+  }
+
+  .Dish {
+    background-color: #181616;
+    height: 516px;
+    width: 400px;
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    border-style: solid;
+    border-color: orangered;
+    margin: 30px;
+    padding: 30px;
+
+  }
+
+  .MENU h1 {
+    color: rgb(254, 250, 250);
+    text-align: center;
+
+  }
+
+  .MENU a img {
+
+    margin: 50px;
+    padding-top: -8px;
+
+  }
+
+  .Dish a img {
+    margin: auto;
+    padding: 0px;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+  }
+
+
+
+
+
+  .MENU h4 {
+    color: #FF9C07;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .Dish h1 {
+    color: rgb(254, 250, 250);
+    padding-left: 10px;
+    padding-top: -28px;
+  }
+
+  .Dish h2 {
+    color: #FF9C07;
+    padding-top: -36px;
+    padding-left: 27px;
+    padding-top: -10px;
+    margin: 15px;
+  }
+
+  .Dish ul {
+    color: rgb(254, 250, 250);
+    text-align: left;
+  }
+
+  /* .Dish{
+      
+ overflow-x: hidden;
+ overflow-y: scroll;
+} */
+  .Dish h4 {
+    color: #fcfaf7;
+    text-align: left;
+    padding-top: 3px;
+    margin: 16px;
+    background-color: #FF9C07;
+    width: 100px;
+
+  }
+
+  .myvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: auto;
+
+  }
+
+  table,
+  td,
+  th {
+
+    text-align: left;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  #veg {
+    color: #DBD9D9;
+  }
+
+  #column {
+    color: #FF9C07;
+  }
+</style>
+
+<body>
+  <!-- <video>
+    <source src="bgvideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+   -->
+  <!-- <video autoplay loop muted plays-inline >
+    <source src="bgvideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+   -->
+
+
+
+  <div class="container">
+    <video autoplay loop muted plays-inline class="myvideo">
+      <source src="bgvideo.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="MENU">
+      <h4>The food resto</h4>
+      <h1>MENU</h1>
+      <a target="_blank" href="Plate.png">
+
+        <div class="list-inline gallery">
+          <img class="thumbnail zoom" src="Plate.png" alt="Cinque Terre" width="300" height="300">
+        </div>
+      </a>
+
+    </div>
+    <div class="Dish">
+      <h2>The</h2>
+      <h1>MENU</h1>
+      <table id="veg">
+        <tr id="column">
+          <th>VEG</th>
+          <th>NON VEG</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Upuma</td>
+          <td>omlet</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Dal rice</td>
+          <td>Fish</td>
+          <td>$150</td>
+        </tr>
+        <tr>
+          <td>Aloo paratha</td>
+          <td>Chicken</td>
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>choole</td>
+          <td>Biriyani</td>
+          <td>$250</td>
+        </tr>
+      </table>
+
+
+      <a>
+        <img src="Ellipse 2.png" alt="food" width="300" height="300">
+      </a>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
