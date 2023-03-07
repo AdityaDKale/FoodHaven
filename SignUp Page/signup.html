@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="/images/logo-ffbb55.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+
+<script src="https://kit.fontawesome.com/c1d45e04f7.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-bar">
+                <a href="#"><img class="logo" src="/images/logo-ffbb55.png" alt="logo"></a>
+                <div class="nav-items-con">
+                    <i onclick="hidenav()" id="close" class="fa-solid fa-xmark"></i>
+                    <ul class="nav-items">
+                        <li><a href="../Home Page/homepage.html">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <i onclick="shownav()" id="menu" class="fa-solid fa-bars"></i>
+                <button id="login-btn" class="btn"><a href="/Login Page/login.html">Log In</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <div class="signup-container">
+                    <p id="heading-1">Sign-Up</p>
+                    <span id="login">or <a href="/Login Page/login.html">login to your account</a></span>
+                    <form class="signup-form" action="#" method="#">
+                        <div class="form-div">
+                            <label for="phone-no">Phone Number</label>
+                            <img src="/images/phone.png" class="in-form-icon" alt="">
+                            <input type="tel" name="phone-no" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="name">Name</label>
+                            <img src="/images/username.png" class="in-form-icon" alt="">
+                            <input type="text" name="name" id="" required>
+                        </div>
+                        <div class="form-div">
+                            <label for="email">E-mail</label>
+                            <img src="/images/email.png" class="in-form-icon" alt="">
+                            <input type="email" name="email" id="" required>
+                        </div>
+                        <button id="submit-btn" class="btn" type="submit">
+                            Continue </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-2">
+                <p id="para-1">
+                    Nothing brings people together like good food
+                </p>
+                <p id="para-2">
+                    ~FoodHaven
+                </p>
+            </div>
+
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
