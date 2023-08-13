@@ -1,6 +1,10 @@
 # FoodHaven Website
 
-Welcome to the FoodHaven website! This is a responsive and visually appealing website that showcases the offerings of FoodHaven, a platform for food delivery. The website is designed to provide an easy-to-use interface for users to explore services, learn about the company, and contact them.
+Welcome to the FoodHaven website! This is a responsive and visually appealing website that showcases the offerings of FoodHaven, a platform for food delivery. The website is designed to provide an easy-to-use interface for users to explore services, learn about the company, and contact them. This project highlight my UI/UX interface designing.
+
+# Website Design at
+
+https://adi1611.github.io/FoodHaven/
 
 ## Table of Contents
 - [Description](#description)
@@ -34,10 +38,9 @@ FoodHaven's website is divided into several sections, each highlighting differen
 
 Insert screenshots showcasing different sections of the website, such as:
 
-![First Section](images/screenshot1.png)
-![Second Section](images/screenshot2.png)
-![Third Section](images/screenshot3.png)
-...
+![First Section](images/screenshot1.jpg)
+![Second Section](images/screenshot2.jpg)
+![Third Section](images/screenshot3.jpg)
 
 ## Usage
 
@@ -57,7 +60,7 @@ The FoodHaven website is built using the following technologies:
 
 ## Contributors
 
-This project was developed by [Your Name](https://github.com/yourusername).
+This project was developed by [Your Name](https://github.com/adi1611).
 
 ## License
 
