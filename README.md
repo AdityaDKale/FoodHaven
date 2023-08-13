@@ -36,11 +36,9 @@ FoodHaven's website is divided into several sections, each highlighting differen
 
 ## Screenshots
 
-Insert screenshots showcasing different sections of the website, such as:
+Screenshots showcasing different sections of the website, such as:
 
 ![First Section](images/screenshot1.jpg)
-![Second Section](images/screenshot2.jpg)
-![Third Section](images/screenshot3.jpg)
 
 ## Usage
 
