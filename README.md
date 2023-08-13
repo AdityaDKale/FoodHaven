@@ -60,7 +60,7 @@ The FoodHaven website is built using the following technologies:
 
 ## Contributors
 
-This project was developed by [Your Name](https://github.com/adi1611).
+This project was developed by [Aditya Kale](https://github.com/adi1611).
 
 ## License
 
