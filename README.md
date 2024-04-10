@@ -4,7 +4,7 @@ Welcome to the FoodHaven website! This is a responsive and visually appealing we
 
 # Website Design at
 
-https://adi1611.github.io/FoodHaven/
+https://adityadkale.github.io/FoodHaven/
 
 ## Table of Contents
 - [Description](#description)
